@@ -21,6 +21,18 @@ const DUMMY_EXPENSES = [
         description: 'A Trousser',
         amount: 56.99,
         date: new Date('2021-12-18')
+    },
+    {
+        id: 'e4',
+        description: 'Laptop',
+        amount: 999.99,
+        date: new Date('2021-12-25')
+    },
+    {
+        id: 'e5',
+        description: 'A Trousser',
+        amount: 56.99,
+        date: new Date('2021-12-18')
     }
 
 ]
@@ -40,7 +52,9 @@ export default ExpensesOutput;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        padding: 24,
+        paddingHorizontal: 24,
+        paddingTop: 24,
+        paddingBottom: 0,
         backgroundColor: GlobalStyles.colors.primary700
     }
 })
