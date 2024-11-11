@@ -22,14 +22,7 @@ function ExpensesOverview() {
         headerTintColor: "white",
         tabBarStyle: { backgroundColor: GlobalStyles.colors.primary500 },
         tabBarActiveTintColor: GlobalStyles.colors.accent500,
-        headerRight: ({ tintColor }) => (
-          <IconButton
-            icon="add"
-            color={tintColor}
-            size={24}
-            onPress={() => {}}
-          />
-        ),
+        headerRight: ({tintColor}) => <IconButton icon="add" color={tintColor} size={24} onPress={() => {}}/>
       }}
     >
       <BottomTabs.Screen
